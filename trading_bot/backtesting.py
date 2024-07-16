@@ -24,3 +24,4 @@ def backtest_strategy(data):
 # data = pd.read_csv('historical_data.csv')
 # final_balance = backtest_strategy(data)
 # print(f"Final balance: {final_balance}")
+
