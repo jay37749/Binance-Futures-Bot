@@ -1,0 +1,4 @@
+2024-05-27 06:12:38,138 - websocket - INFO - Websocket connected
+2024-05-27 07:20:25,317 - websocket - ERROR - error from callback <function on_close at 0x000001BDB6A582C0>: on_close() takes 1 positional argument but 3 were given
+2024-05-27 07:20:25,349 - websocket - INFO - tearing down on exception 
+2024-05-27 07:20:28,369 - root - ERROR - Error occurred: 'close'
