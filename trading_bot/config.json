@@ -46,6 +46,6 @@
           "training_timesteps": 50000
       }
   },
-  "telegram_bot_token": "7673346706:AAF9aQAVZZMi07eSO2NKI8_wa9TuF0nQ2yM",
-  "authorized_users": "@UltimateCryptoDollarBot"
+  "telegram_bot_token": "your telegram token",
+  "authorized_users": [user id]
 }
