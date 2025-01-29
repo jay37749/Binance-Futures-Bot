@@ -1,0 +1,51 @@
+{
+  "api_key": "your_api_key",
+  "api_secret": "your_api_secret",
+  "trading_pairs": ["BTCUSDT", "ETHUSDT"],
+  "default_leverage": 20,
+  "default_risk": 0.01,
+  "default_risk_percentage": 0.01, 
+  "default_risk_factor": 2,
+  "default_reward_factor": 6,
+  "min_risk_to_reward": 3,
+  "default_strategy": "hybrid",
+  "polling_interval": 60,
+  "pair_specific": {
+      "BTCUSDT": {
+          "leverage": 30,
+          "risk": 0.01,
+          "risk_percentage": 0.015,
+          "strategy": "momentum"
+      },
+      "ETHUSDT": {
+          "leverage": 30,
+          "risk": 0.01,
+          "risk_percentage": 0.012,
+          "strategy": "momentum"
+      }
+  },
+  "rl_hyperparameters": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.1,
+      "epsilon_decay": 0.995
+  },
+  "hybrid_settings": {
+      "enable_hybrid_mode": true,
+      "xgboost_weight": 0.6,
+      "rl_weight": 0.4
+  },
+  "model_adjustments": {
+      "xgboost": {
+          "max_depth": 6,
+          "n_estimators": 100
+      },
+      "rl": {
+          "policy_type": "MlpPolicy",
+          "training_timesteps": 50000
+      }
+  },
+  "telegram_bot_token": "7673346706:AAF9aQAVZZMi07eSO2NKI8_wa9TuF0nQ2yM",
+  "authorized_users": "@UltimateCryptoDollarBot"
+}
