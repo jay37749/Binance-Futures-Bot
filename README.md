@@ -15,6 +15,7 @@
 - Welcome to the Ultimate Crypto Trading Bot! This bot is designed to automate cryptocurrency trading using a hybrid strategy that combines XGBoost (machine learning) and PPO (reinforcement learning). It supports live trading, backtesting, and periodic retraining of models. Below, you'll find everything you need to set up, configure, and run the bot.
 
 **Table of Contents**
+
 *Overview*
 
 Prerequisites
@@ -162,9 +163,11 @@ This mode connects to Binance via WebSocket and executes trades in real-time.
 
 Ensure your API credentials are correctly configured in config.json.
 
+
 Backtesting Mode
 
 To run the bot in backtesting mode:
+
 
 Copy
 
@@ -193,6 +196,7 @@ To enable live reinforcement learning:
 Copy
 
 python run_bot.py --mode=train_rl
+
 
 This mode allows the PPO model to learn from real-time market data.
 
