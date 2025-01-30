@@ -186,7 +186,7 @@ This mode evaluates the strategy on historical data and generates performance me
 
 Backtesting results are logged and visualized using an equity curve.
 
-![image alt] (https://github.com/jay37749/Ultimate-Crypto-Trading-Bot/blob/97455af8c1a2137a574490c0edc8d70a31ca23b3/trading_bot/BTCUSDT%2035K%2023RD%20JAN%202025%2060%20MONTHS.png)
+![image alt](https://github.com/jay37749/Ultimate-Crypto-Trading-Bot/blob/97455af8c1a2137a574490c0edc8d70a31ca23b3/trading_bot/BTCUSDT%2035K%2023RD%20JAN%202025%2060%20MONTHS.png)
 
 Retrain XGBoost Model
 
