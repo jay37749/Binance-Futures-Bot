@@ -1,3 +1,5 @@
+![image alt](https://github.com/jay37749/Ultimate-Crypto-Trading-Bot/blob/40bd4560a6dd3a547e1c1e566e64c84a39f51b2a/trading_bot/Ultimate%20Crypto%20Trading%20Bot.png)
+
 <h1 align="center">Hi 👋, I'm jay37749</h1>
 <h3 align="center">I'm a professional Frontend Developer from Kenya.</h3>
 
