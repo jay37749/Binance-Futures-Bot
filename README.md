@@ -121,22 +121,31 @@ API Credentials:
 Copy
 
 "api_key": "your_api_key",
+
 "api_secret": "your_api_secret"
+
 Trading Pairs:
 
 Copy
 
 "trading_pairs": ["BTCUSDT", "ETHUSDT"]
+
 Leverage and Risk Settings:
 
 Copy
 
 "default_leverage": 20,
+
 "default_risk": 0.01,
+
 "default_risk_percentage": 0.01,
+
 "default_risk_factor": 2,
+
 "default_reward_factor": 6,
+
 "min_risk_to_reward": 3
+
 Model Settings:
 
 Copy
@@ -176,6 +185,8 @@ python run_bot.py --mode=backtest
 This mode evaluates the strategy on historical data and generates performance metrics (e.g., Sharpe ratio, max drawdown).
 
 Backtesting results are logged and visualized using an equity curve.
+
+![image alt] (https://github.com/jay37749/Ultimate-Crypto-Trading-Bot/blob/97455af8c1a2137a574490c0edc8d70a31ca23b3/trading_bot/BTCUSDT%2035K%2023RD%20JAN%202025%2060%20MONTHS.png)
 
 Retrain XGBoost Model
 
