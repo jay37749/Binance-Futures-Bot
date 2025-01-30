@@ -223,6 +223,8 @@ Stop-Loss and Take-Profit: Automatically sets stop-loss and take-profit levels b
 
 Risk-to-Reward Ratio: Skips trades that do not meet the minimum risk-to-reward ratio (configurable in config.json).
 
+![image alt](https://github.com/jay37749/Ultimate-Crypto-Trading-Bot/blob/672bcf077b8bb2f4c1c488769248080ab29f97ae/trading_bot/ETHUSDT%2059K%2023RD%20JAN%202025.png)
+
 Troubleshooting
 
 Common Issues
